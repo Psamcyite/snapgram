@@ -1,4 +1,3 @@
-Vite setup instructions:
 
 ```markdown
 # Snapgram
@@ -21,7 +20,7 @@ Snapgram is an Instagram clone built with React, TypeScript, Appwrite, and Tailw
 - **Appwrite**: Open-source backend server for web and mobile apps.
 - **Tailwind CSS**: Utility-first CSS framework for designing responsive web applications.
 - **Vite**: Next-generation frontend build tool that provides a faster and leaner development experience.
-
+- **Shadcn**: Beautifully designed components that you can copy and paste into your apps.
 ## Setup
 
 1. **Clone the repository**:
@@ -43,15 +42,41 @@ Snapgram is an Instagram clone built with React, TypeScript, Appwrite, and Tailw
    - Create a new project and note down the Project ID and API Key.
    - Copy `.env.example` to `.env` and fill in your Appwrite credentials.
 
-4. **Start the development server**:
+4. **Set up React Query**:
+
+   - React Query is already included in the project dependencies.
+   - You can start using React Query for data fetching and caching in your components.
+
+5. **Set up Tailwind CSS**:
+
+   - Tailwind CSS is already included in the project dependencies.
+   - Tailwind CSS configuration file (`tailwind.config.js`) is already set up.
+   - You can start using Tailwind CSS utility classes in your HTML templates and components.
+
+6. **Set up shadcn**:
+
+   - Install shadcn using npm:
+
+     ```bash
+     npm install shadcn
+     ```
+
+   - Import shadcn in your project where you need it:
+
+     ```javascript
+     import shadcn from 'shadcn';
+     ```
+
+7. **Start the development server**:
 
    ```bash
    npm run dev
    ```
 
-5. **Open Snapgram in your browser**:
+8. **Open Snapgram in your browser**:
 
    Navigate to [http://localhost:5173](http://localhost:5173) to view the app.
+```
 
 ## Contributing
 
