@@ -2,7 +2,7 @@
 ```markdown
 # Snapgram
 
-Snapgram is an Instagram clone built with React, TypeScript, Appwrite, and Tailwind CSS.
+Snapgram is an Instagram clone built with React, TypeScript, Appwrite, React-Query and Tailwind CSS.
 
 ## Features
 
